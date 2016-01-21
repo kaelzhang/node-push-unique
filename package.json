@@ -1,7 +1,7 @@
 {
   "name": "push-unique",
-  "version": "1.0.0",
-  "description": "push-unique",
+  "version": "1.0.1",
+  "description": "Push an item to an array and make sure all items are unique.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec ./test/*.js"
@@ -11,7 +11,9 @@
     "url": "git://github.com/kaelzhang/node-push-unique.git"
   },
   "keywords": [
-    "push-unique"
+    "unique",
+    "array",
+    "push"
   ],
   "engines": {
     "node": ">=0.10.0"
